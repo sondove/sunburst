@@ -65,6 +65,7 @@ if True:
     plt.api_write('/config/custom/custom.css', f.read())
 
 
+print(f"Sunburst: {plt.url}")
 
 
 
@@ -109,3 +110,4 @@ plt.data = qqd
 # share the plot with minerva (chatbot)
 plt.shared += 'chat'
 
+print(f"Barchart: {plt.url}")
